@@ -1,0 +1,2585 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+ /* Prevents horizontal scrolling */
+  background-color: black; /* Ensures no white background */
+}
+
+
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 12193px;
+  margin: 0 auto;
+  background: #000000;
+  overflow: hidden;
+}
+.flex-row {
+  position: relative;
+  width: 833px;
+  height: 52px;
+  margin: 39px 0 0 127px;
+  z-index: 59;
+}
+.untitled {
+  position: absolute;
+  width: 214.753px;
+  height: 52px;
+  top: 0;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-18/a4c1a8b1-cd1e-4074-bc12-29b28efe489c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 59;
+}
+.line {
+  position: absolute;
+  width: 1px;
+  height: 44.5px;
+  top: 3px;
+  left: 237px;
+  background: url(https://static.codia.ai/image/2025-03-18/4402b400-5c05-4f00-94fa-46778fcda6a9.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 51;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 16px;
+  left: 298px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 52;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 16px;
+  left: 400px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 53;
+}
+.portfolio-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 16px;
+  left: 504px;
+  color: #c7115c;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 54;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 16px;
+  left: 758px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 55;
+}
+.studio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 17px;
+  left: 634px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 57;
+}
+.arrow {
+  position: absolute;
+  width: 1.08%;
+  height: 17.31%;
+  top: 44.23%;
+  left: 84.15%;
+  background: url(https://static.codia.ai/image/2025-03-18/19307fdb-8c70-41f6-b3ea-7bffde2ac2bd.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 58;
+}
+.flex-row-a {
+  position: relative;
+  width: 778px;
+  height: 323px;
+  margin: 67px 0 0 571px;
+  z-index: 63;
+}
+.group {
+  position: absolute;
+  width: 16.71%;
+  height: 40.25%;
+  top: 0;
+  left: 75.2%;
+  background: url(https://static.codia.ai/image/2025-03-18/33cbbb5f-833d-4bda-80f4-1283be30f1c1.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 63;
+}
+.group-2 {
+  position: absolute;
+  width: 14.4%;
+  height: 34.67%;
+  top: 10.22%;
+  left: 76.35%;
+  background: url(https://static.codia.ai/image/2025-03-18/e8389ce4-069e-4435-99de-c454b531eadf.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 62;
+}
+.portfolio-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 156px;
+  top: 67px;
+  left: 0;
+  color: #c7115c;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 500;
+  line-height: 156px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.group-4 {
+  position: absolute;
+  width: 21.08%;
+  height: 50.77%;
+  top: 49.23%;
+  left: 39.2%;
+  background: url(https://static.codia.ai/image/2025-03-18/88bc1023-a474-4ab5-a2bf-27d26fd9cdec.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 60;
+}
+.group-5 {
+  position: relative;
+  width: 112px;
+  height: 112px;
+  margin: 8px 0 0 26px;
+  background: url(https://static.codia.ai/image/2025-03-18/ee633526-ed40-47af-ade8-648895b76fc6.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 61;
+}
+.pushing-boundaries-bold-visuals {
+  position: relative;
+  width: 1785px;
+  height: 217px;
+  margin: 72px 0 0 25px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 67.2px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 64;
+}
+.pushing-boundaries-bold-visuals-6 {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 76.8px;
+  text-align: center;
+}
+.with {
+  position: relative;
+  color: #fff5dd;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 67.2px;
+  text-align: center;
+}
+.studio-moross {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  text-align: center;
+}
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 195px;
+  height: 55px;
+  margin: 93px 0 0 1490px;
+  background: #c7115c; /* Dark pink */
+  z-index: 5;
+  cursor: pointer; /* Hand cursor */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+
+/* Hover effect */
+.rectangle:hover {
+  background-color: #ffd700; /* Yellow on hover */
+  transform: translateY(-5px); /* Lift up slightly */
+}
+
+.all-projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 103px;
+  height: 35px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.flex-row-de {
+  position: relative;
+  width: 1451px;
+  height: 760px;
+  margin: 85px 0 0 234px;
+  z-index: 36;
+}
+.image {
+  position: absolute;
+  width: 695px;
+  height: 760px;
+  top: 0;
+  left: 756px;
+  background: url(https://static.codia.ai/image/2025-03-18/f21ede79-0f60-4a96-a205-dae8590c3068.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+  
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background */
+#image-modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* 🔥 SUPER HIGH z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Modal content (centered image) */
+#modal-content {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+.image-full {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/f21ede79-0f60-4a96-a205-dae8590c3068.png)
+    no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+
+.kylie-creative-direction {
+  position: absolute;
+  width: 408px;
+  height: 45px;
+  top: 18px;
+  left: 0;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 21;
+}
+.kylie {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.creative-direction {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.creative-direction-7 {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44.8px;
+  text-align: left;
+}
+.client-kylie-minogue {
+  position: absolute;
+  width: 216px;
+  height: 32px;
+  top: 98px;
+  left: 3px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 10;
+}
+.span {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-8 {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-9 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-a {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.div {
+  position: absolute;
+  width: 449px;
+  height: 32px;
+  top: 147px;
+  left: 3px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 11;
+}
+.span-b {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-c {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 512px;
+  height: 96px;
+  top: 215px;
+  left: 3px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+  z-index: 9;
+}
+.div-e {
+  position: absolute;
+  width: 207px;
+  height: 55px;
+  top: 378px;
+  left: 3px;
+  background: #c7115c; /* Dark pink */
+  z-index: 13;
+  cursor: pointer; /* Hand cursor */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+
+/* Hover effect */
+.div-e:hover {
+  background-color: #ffd700; /* Yellow on hover */
+  transform: translateY(-5px); /* Lift up slightly */
+}
+
+.span-f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 17px;
+  left: 47px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.div-10 {
+  position: absolute;
+  width: 4.35%;
+  height: 16.38%;
+  top: 41.81%;
+  left: 72.95%;
+  background: url(https://static.codia.ai/image/2025-03-18/d2ad9ea4-2773-4a0f-8089-607c4ce30848.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 15;
+}
+.div-11 {
+  position: relative;
+  width: 1365px;
+  height: 760px;
+  margin: 90px 0 0 237px;
+  z-index: 38;
+}
+/* Small clickable div */
+.div-12 {
+  position: absolute;
+  width: 695px;
+  height: 760px;
+  top: 0;
+  left: 0;
+  background: url(StudioMoross_SpiceGirls_01.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 38;
+  cursor: pointer; /* 👈 Hand cursor */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.div-12:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Fullscreen modal */
+#image-modal-div-12 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* 👈 Transparent black */
+  backdrop-filter: blur(4px); /* 👈 Optional: Blur background a little */
+  z-index: 99999; /* SUPER HIGH */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content (center the image) */
+#modal-content-div-12 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-div-12 {
+  width: 80vw;
+  height: 80vh;
+  background: url(StudioMoross_SpiceGirls_01.png)
+    no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-div-12 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-div-12:hover {
+  color: #f1c40f; /* Yellow on hover */
+  transform: scale(1.2);
+}
+
+
+.div-13 {
+  position: absolute;
+  width: 528px;
+  height: 45px;
+  top: 67px;
+  left: 837px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 27;
+}
+.span-14 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.span-15 {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.span-16 {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44.8px;
+  text-align: left;
+}
+.div-17 {
+  position: absolute;
+  width: 216px;
+  height: 32px;
+  top: 147px;
+  left: 840px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 24;
+}
+.span-18 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-19 {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-1a {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-1b {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.div-1c {
+  position: absolute;
+  width: 449px;
+  height: 32px;
+  top: 196px;
+  left: 840px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 25;
+}
+.span-1d {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-1e {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.span-1f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 512px;
+  height: 96px;
+  top: 264px;
+  left: 840px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+  z-index: 23;
+}
+.div-20 {
+  position: absolute;
+  width: 207px;
+  height: 55px;
+  top: 425px;
+  left: 843px;
+  background: #c7115c;
+  z-index: 17;
+}
+.span-21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 17px;
+  left: 47px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.div-22 {
+  position: absolute;
+  width: 4.35%;
+  height: 16.38%;
+  top: 41.81%;
+  left: 72.95%;
+  background: url(https://static.codia.ai/image/2025-03-18/15dfd172-69a9-42b1-bc54-b22c116eafd2.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 19;
+}
+.div-23 {
+  position: relative;
+  width: 1443px;
+  height: 760px;
+  margin: 90px 0 0 242px;
+  z-index: 50;
+}
+.div-24 {
+  position: absolute;
+  width: 695px;
+  height: 760px;
+  top: 0;
+  left: 748px;
+  background: url(https://static.codia.ai/image/2025-03-18/85a44c6a-11a1-439e-a88c-13299513521b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 40;
+  cursor: pointer;
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.div-24:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal */
+#image-modal-div-24 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Optional: slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-div-24 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-div-24 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/85a44c6a-11a1-439e-a88c-13299513521b.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-div-24 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-div-24:hover {
+  color: #f1c40f; /* Yellow on hover */
+  transform: scale(1.2);
+}
+
+
+.london-grammar-tour {
+  position: absolute;
+  width: 667px;
+  height: 45px;
+  top: 42px;
+  left: 0;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 50;
+}
+.london-grammar {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.dash {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.californian-soil-tour {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44.8px;
+  text-align: left;
+}
+.client-london-grammar {
+  position: absolute;
+  width: 216px;
+  height: 32px;
+  top: 122px;
+  left: 3px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 43;
+}
+.client {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.empty {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.client-25 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.london-grammar-26 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.art-direction-tour-visuals {
+  position: absolute;
+  width: 449px;
+  height: 32px;
+  top: 171px;
+  left: 3px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 44;
+}
+.category {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.art-direction-tour-visuals-27 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.moody-cinematic-stage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 512px;
+  height: 96px;
+  top: 239px;
+  left: 3px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+  z-index: 42;
+}
+.rectangle-28 {
+  position: absolute;
+  width: 207px;
+  height: 55px;
+  top: 402px;
+  left: 3px;
+  background: #c7115c; /* Dark pink */
+  z-index: 46;
+  cursor: pointer; /* Hand cursor */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+
+/* Hover effect */
+.rectangle-28:hover {
+  background-color: #ffd700; /* Yellow background on hover */
+  transform: translateY(-5px); /* Slight lift up */
+}
+
+.read-more {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 17px;
+  left: 47px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.942px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 47;
+}
+.arrow-29 {
+  position: absolute;
+  width: 4.35%;
+  height: 16.38%;
+  top: 41.81%;
+  left: 72.95%;
+  background: url(https://static.codia.ai/image/2025-03-18/f53d1378-02d4-40c2-8007-bb5fb5bcdebe.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 48;
+}
+.flex-row-cdd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1403px;
+  height: 458px;
+  margin: 2127px 0 0 257px;
+  z-index: 98;
+}
+.image-2a,
+.image-2b,
+.image-2c {
+  flex-shrink: 0;
+  position: relative;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+}
+
+/* Hover effect */
+.image-2a:hover,
+.image-2b:hover,
+.image-2c:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Individual styles */
+.image-2a {
+  width: 683px;
+  height: 456px;
+  background: url(https://static.codia.ai/image/2025-03-18/3ad9d86f-a90e-4d5a-b91b-2c5bcf5534ee.png) no-repeat center;
+  z-index: 97;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-2a {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-2a {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-2a {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/3ad9d86f-a90e-4d5a-b91b-2c5bcf5534ee.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-2a {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-2a:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-2b {
+  width: 686px;
+  height: 458px;
+  background: url(https://static.codia.ai/image/2025-03-18/068f35e6-344b-4ca2-8661-4dcf8f114b41.png) no-repeat center;
+  z-index: 98;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-2b {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-2b {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-2b {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/068f35e6-344b-4ca2-8661-4dcf8f114b41.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-2b {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-2b:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-2c {
+  width: 1405px;
+  height: 937px;
+  margin: 37px 0 0 255px;
+  background: url(https://static.codia.ai/image/2025-03-18/1aa8bc53-2e0e-4c8f-a498-1b7d4da6da63.png) no-repeat center;
+  z-index: 113;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-2c {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Optional: slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-2c {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-2c {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/1aa8bc53-2e0e-4c8f-a498-1b7d4da6da63.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-2c {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-2c:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.flex-row-cbe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1403px;
+  height: 455px;
+  margin: 31px 0 0 256px;
+  z-index: 100;
+}
+.image-2d,
+.image-2e,
+.image-2f {
+  flex-shrink: 0;
+  position: relative;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-2d:hover,
+.image-2e:hover,
+.image-2f:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Individual styles */
+.image-2d {
+  width: 686px;
+  height: 455px;
+  background: url(https://static.codia.ai/image/2025-03-18/8af51193-8f94-451b-b631-9d736e1e4ed7.png) no-repeat center;
+  z-index: 99;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-2d {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-2d {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-2d {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/8af51193-8f94-451b-b631-9d736e1e4ed7.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-2d {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-2d:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+.image-2e {
+  width: 680px;
+  height: 455px;
+  background: url(https://static.codia.ai/image/2025-03-18/06f59c7f-ef10-4277-8995-357aedc2fd75.png) no-repeat center;
+  z-index: 100;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-2e {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-2e {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-2e {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/06f59c7f-ef10-4277-8995-357aedc2fd75.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-2e {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-2e:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-2f {
+  width: 1402px;
+  height: 935px;
+  margin: 33px 0 0 257px;
+  background: url(Spice-Girls---14th-June-2019-by-Luke-Dyson---IMG_0472.jpg) no-repeat center;
+  z-index: 101;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-2f {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-2f {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-2f {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/040e5246-84ff-483d-83b0-f09737da97e0.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-2f {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-2f:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.flex-row-a-30 {
+  position: relative;
+  width: 1425px;
+  height: 983px;
+  margin: 16px 0 0 257px;
+  z-index: 104;
+}
+.image-31,
+.image-32,
+.image-33,
+.image-34 {
+  position: absolute;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-31:hover,
+.image-32:hover,
+.image-33:hover,
+.image-34:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Individual styles */
+.image-31 {
+  width: 688px;
+  height: 1000px;
+  top: 0;
+  left: 713px;
+  background: url(SpiceWorld_BrandPosters_01-800x0-c-default.png) no-repeat center;
+  z-index: 104;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-31 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-31 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-31 {
+  width: 80vw;
+  height: 80vh;
+  background: url(SpiceWorld_BrandPosters_01-800x0-c-default.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-31 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-31:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-32 {
+  width: 700px;
+  height: 467px;
+  top: 16px;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-18/2c6f810c-0515-4537-9d88-58011163e77d.png) no-repeat center;
+  z-index: 102;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-32 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-32 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-32 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/2c6f810c-0515-4537-9d88-58011163e77d.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-32 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-32:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-33 {
+  width: 701px;
+  height: 468px;
+  top: 515px;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-18/bb3ff436-7ca7-4612-8e23-84eb84cbfe86.png) no-repeat center;
+  z-index: 103;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-33 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-33 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-33 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/bb3ff436-7ca7-4612-8e23-84eb84cbfe86.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-33 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-33:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-34 {
+  position: relative;
+  width: 1402px;
+  height: 935px;
+  margin: 29px 0 0 257px;
+  background: url(04_SpiceUpYourLife.jpg) no-repeat center;
+  z-index: 105;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-34 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-34 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-34 {
+  width: 80vw;
+  height: 80vh;
+  background: url(04_SpiceUpYourLife.jpg) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-34 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-34:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.flex-row-daa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1402px;
+  height: 403px;
+  margin: 31px 0 0 257px;
+  z-index: 107;
+}
+.image-35,
+.image-36 {
+  flex-shrink: 0;
+  position: relative;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-35:hover,
+.image-36:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Individual styles */
+.image-35 {
+  width: 767px;
+  height: 403px;
+  background: url(https://static.codia.ai/image/2025-03-18/0e7a31bf-3cdc-4ff1-84c2-f5aea39ff8e0.png) no-repeat center;
+  z-index: 106;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-35 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-35 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-35 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/0e7a31bf-3cdc-4ff1-84c2-f5aea39ff8e0.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-35 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-35:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.image-36 {
+  width: 602px;
+  height: 402px;
+  background: url(https://static.codia.ai/image/2025-03-18/abc4d414-a908-4821-9057-618dc2089bc8.png) no-repeat center;
+  z-index: 107;
+  cursor: pointer;
+}
+/* Fullscreen modal */
+#image-modal-36 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-36 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-36 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-18/abc4d414-a908-4821-9057-618dc2089bc8.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-36 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-36:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+.flex-row-da {
+  position: relative;
+  width: 1920px;
+  height: 1281px;
+  margin: 44px 0 0 0;
+  z-index: 112;
+}
+.creative-director-producer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 401px;
+  height: 297px;
+  top: 0;
+  left: 256px;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 33.15px;
+  text-align: left;
+  z-index: 31;
+}
+.studio-moross-37 {
+  position: absolute;
+  width: 475px;
+  height: 726px;
+  top: 0;
+  left: 1064px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 33.15px;
+  text-align: left;
+  z-index: 112;
+}
+.studio-moross-38 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 33.15px;
+  text-align: left;
+}
+.producers-studio-manager {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 33.15px;
+  text-align: left;
+}
+.group-39 {
+  position: absolute;
+  width: 12.19%;
+  height: 18.27%;
+  top: 28.26%;
+  left: 13.39%;
+  background: url(https://static.codia.ai/image/2025-03-18/d45bd734-973d-4557-8e1e-f05e58ee2e1b.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 85;
+}
+.group-3a {
+  position: absolute;
+  width: 12.19%;
+  height: 18.27%;
+  top: 28.26%;
+  left: 25.57%;
+  background: url(https://static.codia.ai/image/2025-03-18/61fc83fd-f7e6-4112-94ab-d05c8e96889d.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 87;
+}
+.group-3b {
+  position: absolute;
+  width: 12.19%;
+  height: 18.27%;
+  top: 28.26%;
+  left: 37.66%;
+  background: url(https://static.codia.ai/image/2025-03-18/14b52c4b-99bf-4c19-b2bf-920f721cbdf6.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 86;
+}
+.group-3c {
+  position: absolute;
+  width: 10.57%;
+  height: 15.85%;
+  top: 43.72%;
+  left: 45.31%;
+  background: url(https://static.codia.ai/image/2025-03-18/40f7b243-222c-4663-b641-dc9c0da5fa25.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 78;
+}
+.rectangle-3d {
+  position: absolute;
+  width: 1920px;
+  height: 619px;
+  top: 662px;
+  left: 0;
+  background: #000000;
+  z-index: 66;
+}
+.flex-row-bcf {
+  position: relative;
+  width: 1524px;
+  height: 222px;
+  margin: 106px 0 0 200px;
+  z-index: 77;
+}
+.untitled-3e {
+  position: absolute;
+  width: 607px;
+  height: 147px;
+  top: 0;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-18/a4c1a8b1-cd1e-4074-bc12-29b28efe489c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 77;
+}
+.get-in-touch {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 48.202px;
+  top: 40px;
+  left: 1006px;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 73;
+}
+.a-p-w {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 31px;
+  height: 110px;
+  top: 112px;
+  left: 1006px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 500;
+  line-height: 32.175px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 72;
+  overflow: hidden;
+}
+.address-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 484px;
+  height: 110px;
+  top: 112px;
+  left: 1040px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 71;
+  overflow: hidden;
+}
+.creativity-quote {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 390px;
+  height: 64px;
+  top: 143px;
+  left: 36px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+  z-index: 69;
+}
+.flex-row-dbd {
+  position: relative;
+  width: 1217.44px;
+  height: 28px;
+  margin: 37px 0 0 236px;
+  z-index: 74;
+}
+.arrow-3f {
+  position: absolute;
+  width: 1.89%;
+  height: 82.2%;
+  top: 0;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-18/f2dbcca1-b1e3-489d-bc38-69db8e1a7d37.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 68;
+}
+.social-icons {
+  position: absolute;
+  top: 7.092px;
+  right: 0;
+  bottom: 0;
+  left: 970px;
+  background: url(https://static.codia.ai/image/2025-03-18/5d88772e-a0c8-4521-b6c6-90bd253db51e.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 74;
+}
+.vector {
+  position: relative;
+  width: 1920px;
+  height: 1px;
+  margin: 129.5px 0 0 0;
+  background: url(https://static.codia.ai/image/2025-03-18/57b8bb89-7cac-4865-8a0d-e7e7d43ab94e.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 76;
+}
+.flex-row-fa {
+  position: absolute;
+  width: 120.31%;
+  height: 5.54%;
+  top: 28.58%;
+  left: -10.16%;
+  z-index: 89;
+}
+.group-40 {
+  position: absolute;
+  width: 10.13%;
+  height: 34.62%;
+  top: 0;
+  left: 44.94%;
+  background: url(https://static.codia.ai/image/2025-03-18/08f652ea-7d66-4a3c-9193-11f9f5dac58e.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 89;
+}
+.group-41 {
+  position: relative;
+  width: 99px;
+  height: 99px;
+  margin: 104px 0 0 67px;
+  background: url(https://static.codia.ai/image/2025-03-18/b272cbba-b543-4cc0-96b9-5f2975ed3eab.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 90;
+}
+.group-42 {
+  position: absolute;
+  width: 10.13%;
+  height: 34.62%;
+  top: 11.09%;
+  left: 44.94%;
+  background: url(https://static.codia.ai/image/2025-03-18/6b7e3f8f-99fe-4a82-9b21-6b59cead51cc.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 88;
+}
+.rectangle-43 {
+  position: absolute;
+  width: 1920px;
+  height: 484px;
+  top: 192px;
+  left: 195px;
+  background: #c7115c;
+  z-index: 79;
+}
+.selected-work-spice-world {
+  position: relative;
+  width: 1904px;
+  height: 150px;
+  margin: 114px 0 0 2px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 79.8px;
+  text-align: center;
+  z-index: 92;
+}
+.selected-work {
+  position: relative;
+  color: #fff5dd;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 79.8px;
+  text-align: center;
+}
+.spice-world-art-direction {
+  position: relative;
+  color: #fff5dd;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 79.8px;
+  text-align: center;
+}
+.flex-row-e {
+  position: relative;
+  width: 234px;
+  height: 32px;
+  margin: 15px 0 0 843px;
+  z-index: 96;
+}
+.portfolio-44 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 71px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 95;
+}
+.spice-girls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 0;
+  left: 108px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 96;
+}
+.arrow-45 {
+  position: absolute;
+  width: 20px;
+  top: 18px;
+  left: 78px;
+  background: url(https://static.codia.ai/image/2025-03-18/4eabbc5b-2a16-4252-894c-3b0144b36628.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 94;
+}
+.vector-46 {
+  position: absolute;
+  width: 16.88%;
+  height: 57.69%;
+  top: 35.36%;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-18/963f7f00-a747-4e3c-b57d-302a640c0ef6.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 81;
+}
+.vector-47 {
+  position: relative;
+  width: 183px;
+  height: 183px;
+  margin: 103px 0 0 103px;
+  background: url(https://static.codia.ai/image/2025-03-18/b8b00755-2c8f-4976-843d-bdf43ee165ae.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 109;
+}
+.vector-48 {
+  position: absolute;
+  width: 16.88%;
+  height: 57.69%;
+  top: 35.36%;
+  left: 83.12%;
+  background: url(https://static.codia.ai/image/2025-03-18/f64aaf76-cd35-4ac3-9412-bdf8b05af8ee.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 83;
+}
+.group-49 {
+  position: relative;
+  width: 183px;
+  height: 183px;
+  margin: 105px 0 0 103px;
+  background: url(https://static.codia.ai/image/2025-03-18/0f417d42-5cab-4739-a759-47b8cca1cd03.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 111;
+}
+.flex-row-a-4a {
+  position: absolute;
+  width: 96.67%;
+  height: 12.52%;
+  top: 33.17%;
+  left: 2.03%;
+  z-index: 110;
+}
+.group-4b {
+  position: absolute;
+  width: 12.61%;
+  height: 15.33%;
+  top: 0;
+  left: 43.32%;
+  background: url(https://static.codia.ai/image/2025-03-18/708a05b1-cf92-4186-95e8-1818d2fc9140.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 84;
+}
+.group-4c {
+  position: relative;
+  width: 99px;
+  height: 99px;
+  margin: 106px 0 0 67px;
+  background: url(https://static.codia.ai/image/2025-03-18/bef815c4-95e4-4388-b57a-4db5c6d06e07.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 91;
+}
+.group-4d {
+  position: absolute;
+  width: 12.61%;
+  height: 15.33%;
+  top: 4.98%;
+  left: 43.32%;
+  background: url(https://static.codia.ai/image/2025-03-18/3d4ebe6f-4184-48d2-b519-2becf80d82c0.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.spice-world-art-direction-4e {
+  position: absolute;
+  width: 528px;
+  height: 45px;
+  top: 265px;
+  left: 223px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 35;
+}
+.spice-world {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.art-direction {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+}
+.art-direction-4f {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44.8px;
+  text-align: left;
+}
+.art-direction-50 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 534px;
+  height: 302px;
+  top: 275px;
+  left: 1095px;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46.8px;
+  text-align: left;
+  z-index: 30;
+}
+.client-spice-girls {
+  position: absolute;
+  width: 216px;
+  height: 32px;
+  top: 345px;
+  left: 226px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 32;
+}
+.client-51 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.empty-52 {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.client-53 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.client-spice-girls-54 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.category-art-direction-live-tour-visuals {
+  position: absolute;
+  width: 449px;
+  height: 32px;
+  top: 394px;
+  left: 226px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 33;
+}
+.category-55 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.art-direction-live-tour-visuals {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+}
+.designed-visual-identity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 512px;
+  height: 96px;
+  top: 462px;
+  left: 226px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32.175px;
+  text-align: left;
+  z-index: 29;
+}
+.image-56 {
+  position: absolute;
+  width: 1405px;
+  height: 937px;
+  top: 580px;
+  left: 220px;
+  background: url(StudioMoross_SpiceGirls_01.png) no-repeat center;
+  background-size: cover;
+  z-index: 110;
+  cursor: pointer;
+
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-56:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal */
+#image-modal-56 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
+  backdrop-filter: blur(4px); /* Optional: slight blur */
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+#modal-content-56 {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+#image-full-56 {
+  width: 80vw;
+  height: 80vh;
+  background: url(StudioMoross_SpiceGirls_01.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+#close-button-56 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+#close-button-56:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+#read-more-button {
+  cursor: pointer; /* makes it show a hand when hovering */
+}
+#read-more-button {
+  display: inline-flex; /* To keep text and arrow together */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #c23c68; /* Dark pink/magenta background */
+  color: white; /* White text */
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0px; /* No rounded corners */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  gap: 8px; /* Space between text and arrow */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+#read-more-button:hover {
+  background-color: #ffd700; /* Yellow hover */
+  color: black; /* Black text when hovering */
+  transform: translateY(-5px); /* Slight lift */
+}

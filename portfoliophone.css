@@ -1,0 +1,2813 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 393px;
+  height: 11089px;
+  margin: 0 auto;
+  background: #000000;
+  overflow: hidden;
+}
+.untitled {
+  position: relative;
+  width: 214.753px;
+  height: 52px;
+  margin: 32px 0 0 93px;
+  background: url(https://static.codia.ai/image/2025-03-25/ff77f5f2-ad34-4f35-b660-ebe7102845a1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 47;
+}
+.flex-row-b {
+  position: relative;
+  width: 289px;
+  height: 10px;
+  margin: 4px 0 0 63px;
+  z-index: 54;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 10px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.752px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 48;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 10px;
+  top: 0;
+  left: 52px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.752px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 49;
+}
+.portfolio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 10px;
+  top: 0;
+  left: 110px;
+  color: #c7115c;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.752px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 50;
+}
+.studio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 10px;
+  top: 0;
+  left: 177px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.752px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 52;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 10px;
+  top: 0;
+  left: 235px;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.752px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 53;
+}
+.arrow {
+  position: absolute;
+  width: 1.73%;
+  height: 50%;
+  top: 30%;
+  left: 70.93%;
+  background: url(https://static.codia.ai/image/2025-03-25/3807f4f8-7381-4097-8b8d-1d8f976cfb26.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 54;
+}
+.flex-row-e {
+  position: relative;
+  width: 311px;
+  height: 102px;
+  margin: 27px 0 0 54px;
+  z-index: 126;
+}
+.group {
+  position: absolute;
+  width: 12.03%;
+  height: 36.67%;
+  top: 0;
+  left: 63.34%;
+  background: url(https://static.codia.ai/image/2025-03-25/3c704694-8de9-4483-81e9-f295fedf28d7.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 126;
+}
+.group-1 {
+  position: absolute;
+  width: 10.36%;
+  height: 31.59%;
+  top: 9.58%;
+  left: 64.14%;
+  background: url(https://static.codia.ai/image/2025-03-25/1985b496-7eba-438f-a784-940c619f0034.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 125;
+}
+.portfolio-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 62px;
+  top: 20px;
+  left: 0;
+  color: #c7115c;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58.512px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 122;
+}
+.group-3 {
+  position: absolute;
+  width: 15.43%;
+  height: 47.06%;
+  top: 52.94%;
+  left: 38.91%;
+  background: url(https://static.codia.ai/image/2025-03-25/b9a10dc8-f6ad-4d11-ae75-2e1195e7de9d.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 123;
+}
+.group-4 {
+  position: relative;
+  width: 32.78px;
+  height: 32.78px;
+  margin: 2.341px 0 0 7.61px;
+  background: url(https://static.codia.ai/image/2025-03-25/b2cd285d-8a41-4162-a766-8456798523e7.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 124;
+}
+.pushing-boundaries-bold-visuals {
+  position: relative;
+  width: 316px;
+  height: 92px;
+  margin: 12px 0 0 39px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  text-align: center;
+  z-index: 55;
+}
+.pushing-boundaries-bold-visuals-5 {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+}
+.with {
+  position: relative;
+  color: #fff5dd;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+}
+.line-break {
+  position: relative;
+  color: #fff5dd;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+}
+.studio-moross {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: center;
+}
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100px;
+  height: 28.205px;
+  margin: -6px 0 0 147px;
+  background: #c7115c; /* Dark pink color */
+  z-index: 58;
+  cursor: pointer; /* Hand pointer */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth color and movement */
+}
+
+/* Hover effect */
+.rectangle:hover {
+  background-color: #ffd700; /* Yellow when hovering */
+  transform: translateY(-5px); /* Moves up a little bit */
+}
+
+.all-projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 81px;
+  height: 18px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 58;
+}
+/* .image */
+/* .image */
+.image {
+  position: relative;
+  width: 268px;
+  height: 293px;
+  margin: 74.795px 0 0 63px;
+  background: url(https://static.codia.ai/image/2025-03-25/12f58748-edfd-4d30-a6bb-62f7dfd62c8e.png) no-repeat center;
+  background-size: cover;
+  z-index: 62;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .image */
+.image:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Fullscreen modal background for #image-modal-clickable-image */
+#image-modal-clickable-image {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-clickable-image */
+#modal-content-clickable-image {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-clickable-image */
+#image-full-clickable-image {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/12f58748-edfd-4d30-a6bb-62f7dfd62c8e.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-clickable-image */
+#close-button-clickable-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect for #close-button-clickable-image */
+#close-button-clickable-image:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+
+.kylie-creative-direction {
+  position: relative;
+  width: 255px;
+  height: 28px;
+  margin: 15px 0 0 69px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 67;
+}
+.kylie {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+.dash {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+.creative-direction {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+.client-kylie-minogue {
+  position: relative;
+  width: 216px;
+  height: 23px;
+  margin: 5px 0 0 89px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 64;
+}
+.client {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.space {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.client-6 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.kylie-minogue {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.creative-direction-visual-identity {
+  position: relative;
+  width: 449px;
+  height: 23px;
+  margin: 4px 0 0 -21px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 65;
+}
+.category {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.creative-direction-visual-identity-7 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.led-creative-direction {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 246px;
+  height: 108px;
+  margin: 23px 0 0 81px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.3px;
+  text-align: center;
+  z-index: 63;
+}
+.rectangle-8 {
+  position: relative;
+  width: 100px;
+  height: 28.205px;
+  margin: 44px 0 0 154px;
+  background: #c7115c; /* Dark pink background */
+  z-index: 85;
+  cursor: pointer; /* This makes the mouse a hand/finger 👆 */
+  transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+/* Hover effect */
+.rectangle-8:hover {
+  background-color: #ffd700; /* Yellow hover */
+  color: black; /* Black text when hovering */
+  transform: translateY(-5px); /* Slight lift */
+}
+.read-more {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 81px;
+  height: 18px;
+  top: 4px;
+  left: 4px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 61;
+}
+.arrow-9 {
+  position: absolute;
+  width: 7%;
+  height: 24.84%;
+  top: 39%;
+  left: 77%;
+  background: url(https://static.codia.ai/image/2025-03-25/7200a3cf-9245-43a0-93ce-cf65dd0e6543.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 68;
+}
+.image-a {
+  position: relative;
+  width: 268px;
+  height: 296px;
+  margin: 73.795px 0 0 64px;
+  background: url(https://static.codia.ai/image/2025-03-25/9026d2be-bcba-432b-bab6-09c4d65762e7.png) no-repeat center;
+  background-size: cover;
+  z-index: 83;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-a:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background */
+.image-modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* 🔥 SUPER HIGH z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+  position: relative;
+}
+
+/* Fullscreen image inside modal */
+.image-full {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/9026d2be-bcba-432b-bab6-09c4d65762e7.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover */
+.close-button:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.spice-world-art-direction {
+  position: relative;
+  width: 330px;
+  height: 28px;
+  margin: 17px 0 0 32px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 76;
+}
+.spice-world-2019-art-direction {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+.art-direction {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+.client-spice-girls {
+  position: relative;
+  width: 216px;
+  height: 23px;
+  margin: 5px 0 0 89px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 73;
+}
+.client-b {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.spice-girls {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.client-c {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.category-d {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.art-direction-live-tour-visuals {
+  position: relative;
+  width: 449px;
+  height: 23px;
+  margin: 5px 0 0 -21px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 74;
+}
+.category-e {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.art-direction-live-tour-visuals-f {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.designed-visual-identity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 281px;
+  height: 108px;
+  margin: 32px 0 0 63px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.3px;
+  text-align: center;
+  z-index: 72;
+}
+.rectangle-10 {
+  position: relative;
+  width: 100px;
+  height: 28.205px;
+  margin: 44px 0 0 154px;
+  background: #c7115c;
+  z-index: 70;
+}
+.read-more-11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 81px;
+  height: 18px;
+  top: 4px;
+  left: 4px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 71;
+}
+.arrow-12 {
+  position: absolute;
+  width: 7%;
+  height: 24.84%;
+  top: 39%;
+  left: 77%;
+  background: url(https://static.codia.ai/image/2025-03-25/9a76f56c-76a0-44ba-bef9-7166b70f4b82.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 82;
+}
+.image-13 {
+  position: relative;
+  width: 270.684px;
+  height: 296px;
+  margin: 46.795px 0 0 63px;
+  background: url(https://static.codia.ai/image/2025-03-25/e5cc8a08-d287-4717-b348-4da6614c6b12.png) no-repeat center;
+  background-size: cover;
+  z-index: 92;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-13:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+#image-modal-13 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-13 */
+#modal-content-13 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-13 */
+#image-full-13 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/e5cc8a08-d287-4717-b348-4da6614c6b12.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-13 */
+#close-button-13 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-13:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+.london-grammar-californian-soil-tour {
+  position: relative;
+  width: 317px;
+  height: 56px;
+  margin: 10px 0 0 40px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  z-index: 46;
+}
+.london-grammar {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+.californian-soil-tour {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+.client-london-grammar {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+.client-14 {
+  position: relative;
+  width: 216px;
+  height: 23px;
+  margin: 6px 0 0 89px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 88;
+}
+.text-24 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.text-25 {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.text-26 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.london-grammar-15 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.art-direction-tour-visuals {
+  position: relative;
+  width: 449px;
+  height: 23px;
+  margin: 0 0 0 -21px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 89;
+}
+.category-16 {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.art-direction-tour-visuals-17 {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.moody-cinematic-stage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 281px;
+  height: 108px;
+  margin: 28px 0 0 63px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.3px;
+  text-align: center;
+  z-index: 87;
+}
+.rectangle-18 {
+  position: relative;
+  width: 100px;
+  height: 28.205px;
+  margin: 44px 0 0 154px;
+  background: #c7115c; /* Dark pink background */
+  z-index: 85;
+  cursor: pointer; /* This makes the mouse a hand/finger 👆 */
+  transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+/* Hover effect */
+.rectangle-18:hover {
+  background-color: #ffd700; /* Yellow hover */
+  color: black; /* Black text when hovering */
+  transform: translateY(-5px); /* Slight lift */
+}
+
+.read-more-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 81px;
+  height: 18px;
+  top: 4px;
+  left: 4px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 86;
+}
+.arrow-1a {
+  position: absolute;
+  width: 7%;
+  height: 24.84%;
+  top: 39%;
+  left: 77%;
+  background: url(https://static.codia.ai/image/2025-03-25/e0140a55-ea0f-4c70-af16-82990dbaaec0.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 90;
+}
+.flex-row-fa {
+  position: relative;
+  width: 611px;
+  height: 1010px;
+  margin: 168.795px 0 0 -109px;
+  z-index: 101;
+}
+.group-1b {
+  position: absolute;
+  width: 26.52%;
+  height: 16.05%;
+  top: 0;
+  left: 37.97%;
+  background: url(https://static.codia.ai/image/2025-03-25/ed788269-f771-4618-84d1-fea1271f5be2.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 95;
+}
+.group-1c {
+  position: relative;
+  width: 68.563px;
+  height: 68.563px;
+  margin: 72.026px 0 0 46.401px;
+  background: url(https://static.codia.ai/image/2025-03-25/ef26fb9d-d8e6-40bf-b0d8-15ebf97a992c.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 96;
+}
+.group-1d {
+  position: absolute;
+  width: 26.52%;
+  height: 16.05%;
+  top: 5.14%;
+  left: 37.97%;
+  background: url(https://static.codia.ai/image/2025-03-25/c290bd92-b1ae-461c-83a2-f451e6578d1e.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 94;
+}
+.rectangle-1e {
+  position: absolute;
+  width: 394px;
+  height: 794px;
+  top: 107px;
+  left: 108px;
+  font-size: 0px;
+  background: #c7115c;
+  z-index: 93;
+}
+.selected-works {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 219px;
+  height: 44px;
+  margin: 107px 0 0 92px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 129;
+}
+.spice-world-art-direction-1f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 204px;
+  height: 135px;
+  margin: 153px 0 0 103px;
+  color: #fff5dd;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44.8px;
+  text-align: center;
+  z-index: 130;
+}
+.flex-row-da {
+  position: relative;
+  width: 234px;
+  height: 32px;
+  margin: 186px 0 0 88px;
+  z-index: 105;
+}
+.portfolio-20 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 71px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 104;
+}
+.spice-girls-21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  top: 0;
+  left: 108px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 105;
+}
+.arrow-22 {
+  position: absolute;
+  width: 20px;
+  top: 18px;
+  left: 78px;
+  background: url(https://static.codia.ai/image/2025-03-25/aaa3b2ea-4862-4ea4-a728-68c626be4228.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 103;
+}
+.group-23 {
+  position: absolute;
+  width: 35.68%;
+  height: 21.58%;
+  top: 37.23%;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-25/7044e66d-4630-470b-ab0f-39b595697d7e.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 101;
+}
+.group-24 {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin: 39px 0 0 39px;
+  background: url(https://static.codia.ai/image/2025-03-25/74a05ae0-6ced-4e4a-add7-f43acdd559f9.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 121;
+}
+.group-25 {
+  position: absolute;
+  width: 35.68%;
+  height: 21.58%;
+  top: 37.23%;
+  left: 64.32%;
+  background: url(https://static.codia.ai/image/2025-03-25/ba355865-7973-4fe1-8858-30b228159f02.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 100;
+}
+.group-26 {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin: 39px 0 0 39px;
+  background: url(https://static.codia.ai/image/2025-03-25/70349bbb-632f-40bd-a345-a5e4c2c54e48.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 120;
+}
+.group-27 {
+  position: absolute;
+  width: 26.52%;
+  height: 16.05%;
+  top: 78.81%;
+  left: 36.82%;
+  background: url(https://static.codia.ai/image/2025-03-25/5c3b97f9-762f-49ae-805f-17b2109f8f81.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 98;
+}
+.group-28 {
+  position: relative;
+  width: 68.563px;
+  height: 68.563px;
+  margin: 72.026px 0 0 46.401px;
+  background: url(https://static.codia.ai/image/2025-03-25/66c514a1-9074-476e-94a7-171f8fff0fbf.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 99;
+}
+.group-29 {
+  position: absolute;
+  width: 26.52%;
+  height: 16.05%;
+  top: 83.95%;
+  left: 36.82%;
+  background: url(https://static.codia.ai/image/2025-03-25/d2d2f961-0fd1-478a-8f92-fef1d8bc43c7.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 97;
+}
+.spice-world-art-direction-2a {
+  position: relative;
+  width: 314px;
+  height: 27px;
+  margin: 10px 0 0 40px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26.6px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 81;
+}
+.spice-world-art-direction-2b {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 26.6px;
+  text-align: center;
+}
+.art-direction-2c {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26.6px;
+  text-align: center;
+}
+.client-spice-girls-2d {
+  position: relative;
+  width: 216px;
+  height: 23px;
+  margin: 6px 0 0 89px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 78;
+}
+.span-colon {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.client-2e {
+  position: relative;
+  color: rgba(253, 227, 167, 0.5);
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.span-colon-2f {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.span-spice-girls {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.div-category-art-direction {
+  position: relative;
+  width: 449px;
+  height: 23px;
+  margin: 5px 0 0 -21px;
+  font-family: Epilogue, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 79;
+}
+.span-category {
+  position: relative;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.span-art-direction-live-tour {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+}
+.span-designed-visual-identity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 281px;
+  height: 108px;
+  margin: 32px 0 0 63px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.3px;
+  text-align: center;
+  z-index: 77;
+}
+.div-flex-row-ad {
+  position: relative;
+  width: 281px;
+  height: 451px;
+  margin: 62px 0 0 59px;
+  z-index: 107;
+}
+.span-art-direction-live-visuals {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 253px;
+  height: 302px;
+  top: 0;
+  left: 17px;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29.25px;
+  text-align: center;
+  z-index: 106;
+}
+/* .div-image */
+.div-image {
+  position: absolute;
+  width: 281px;
+  height: 174px;
+  top: 277px;
+  left: 0;
+  background: url(https://static.codia.ai/image/2025-03-25/6871fe90-258b-4b5a-84cc-14f3bb6cd6d3.png) no-repeat center;
+  background-size: cover;
+  z-index: 107;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image */
+.div-image:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+#image-modal-div-image {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-div-image */
+#modal-content-div-image {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-div-image */
+#image-full-div-image {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/6871fe90-258b-4b5a-84cc-14f3bb6cd6d3.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-div-image */
+#close-button-div-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-div-image:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+/* .div-image-30 */
+.div-image-30 {
+  position: relative;
+  width: 281px;
+  height: 187px;
+  margin: 8px 0 0 59px;
+  background: url(https://static.codia.ai/image/2025-03-25/665cc277-8f45-4c34-8a6f-64dbd9043827.png) no-repeat center;
+  background-size: cover;
+  z-index: 108;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-30 */
+.div-image-30:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+#image-modal-30 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-30 */
+#modal-content-30 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-30 */
+#image-full-30 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/665cc277-8f45-4c34-8a6f-64dbd9043827.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-30 */
+#close-button-30 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-30:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+/* .div-image-31 */
+.div-image-31 {
+  position: relative;
+  width: 282px;
+  height: 188px;
+  margin: 6px 0 0 59px;
+  background: url(https://static.codia.ai/image/2025-03-25/51b014dc-8f06-43da-88cd-f4f02aa36f5c.png) no-repeat center;
+  background-size: cover;
+  z-index: 127;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-31 */
+.div-image-31:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Fullscreen modal background for #image-modal-31 */
+#image-modal-31 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-31 */
+#modal-content-31 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-31 */
+#image-full-31 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/51b014dc-8f06-43da-88cd-f4f02aa36f5c.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-31 */
+#close-button-31 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-31:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+.div-image-32 {
+  position: relative;
+  width: 283px;
+  height: 189px;
+  margin: 10px 0 0 58px;
+  background: url(https://static.codia.ai/image/2025-03-25/30fed1a3-f182-4063-91e4-db5580df6b4d.png) no-repeat center;
+  background-size: cover;
+  z-index: 109;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.div-image-32:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-32 */
+#image-modal-32 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-32 */
+#modal-content-32 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-32 */
+#image-full-32 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/30fed1a3-f182-4063-91e4-db5580df6b4d.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-32 */
+#close-button-32 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-32:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+.div-flex-row-dd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 283px;
+  height: 92px;
+  margin: 7px 0 0 58px;
+  z-index: 119;
+}
+/* .div-image-33 */
+.div-image-33 {
+  flex-shrink: 0;
+  position: relative;
+  width: 138px;
+  height: 91px;
+  background: url(https://static.codia.ai/image/2025-03-25/5face8f8-552c-4c3a-82ce-479b97ea5b03.png) no-repeat center;
+  background-size: cover;
+  z-index: 110;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-33 */
+.div-image-33:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+#image-modal-33 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-33 */
+#modal-content-33 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-33 */
+#image-full-33 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/5face8f8-552c-4c3a-82ce-479b97ea5b03.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-33 */
+#close-button-33 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-33:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+/* .div-image-34 */
+.div-image-34 {
+  flex-shrink: 0;
+  position: relative;
+  width: 137px;
+  height: 92px;
+  background: url(https://static.codia.ai/image/2025-03-25/a85c629f-988b-4b12-991f-423aedd13b0f.png) no-repeat center;
+  background-size: cover;
+  z-index: 119;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-34 */
+.div-image-34:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+#image-modal-34 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-34 */
+#modal-content-34 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-34 */
+#image-full-34 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/a85c629f-988b-4b12-991f-423aedd13b0f.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-34 */
+#close-button-34 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-34:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+/* .div-image-35 */
+.div-image-35 {
+  position: relative;
+  width: 283px;
+  height: 189px;
+  margin: 7px 0 0 58px;
+  background: url(https://static.codia.ai/image/2025-03-25/a4c399f3-f8f3-4251-9023-7fd01b44073d.png) no-repeat center;
+  background-size: cover;
+  z-index: 111;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-35 */
+.div-image-35:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-35 */
+#image-modal-35 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-35 */
+#modal-content-35 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-35 */
+#image-full-35 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/a4c399f3-f8f3-4251-9023-7fd01b44073d.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-35 */
+#close-button-35 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-35:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+
+/* .div-image-36 */
+.div-image-36 {
+  position: relative;
+  width: 283px;
+  height: 402px;
+  margin: 18px 0 0 58px;
+  background: url(https://static.codia.ai/image/2025-03-25/eb960549-cdec-4905-bc79-67094040c19a.png) no-repeat center;
+  background-size: cover;
+  z-index: 112;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-36 */
+.div-image-36:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+
+/* Fullscreen modal background for #image-modal-36 */
+#image-modal-36 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-36 */
+#modal-content-36 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-36 */
+#image-full-36 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/eb960549-cdec-4905-bc79-67094040c19a.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-36 */
+#close-button-36 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-36:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+/* .div-image-37 */
+.div-image-37 {
+  position: relative;
+  width: 283px;
+  height: 189px;
+  margin: 13px 0 0 58px;
+  background: url(https://static.codia.ai/image/2025-03-25/6d9323bd-2abd-4357-b467-7a9f060bdc06.png) no-repeat center;
+  background-size: cover;
+  z-index: 113;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-37 */
+.div-image-37:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-37 */
+#image-modal-37 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-37 */
+#modal-content-37 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-37 */
+#image-full-37 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/6d9323bd-2abd-4357-b467-7a9f060bdc06.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-37 */
+#close-button-37 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-37:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+/* .div-image-38 */
+.div-image-38 {
+  position: relative;
+  width: 288px;
+  height: 192px;
+  margin: 13px 0 0 53px;
+  background: url(https://static.codia.ai/image/2025-03-25/d42e7c5c-ca1e-453f-a045-d27abb02eb6e.png) no-repeat center;
+  background-size: cover;
+  z-index: 114;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-38 */
+.div-image-38:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-38 */
+#image-modal-38 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-38 */
+#modal-content-38 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-38 */
+#image-full-38 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/d42e7c5c-ca1e-453f-a045-d27abb02eb6e.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-38 */
+#close-button-38 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-38:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+/* .div-image-39 */
+.div-image-39 {
+  position: relative;
+  width: 290px;
+  height: 193px;
+  margin: 11px 0 0 52px;
+  background: url(https://static.codia.ai/image/2025-03-25/8af775e8-ec4d-444f-a47e-923de0b2f372.png) no-repeat center;
+  background-size: cover;
+  z-index: 118;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-39 */
+.div-image-39:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-39 */
+#image-modal-39 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-39 */
+#modal-content-39 {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-39 */
+#image-full-39 {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/8af775e8-ec4d-444f-a47e-923de0b2f372.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-39 */
+#close-button-39 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-39:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+/* .div-image-3a */
+.div-image-3a {
+  position: relative;
+  width: 288px;
+  height: 151px;
+  margin: 9px 0 0 52px;
+  background: url(https://static.codia.ai/image/2025-03-25/1928161b-63de-4701-b114-6c04f1b5bb27.png) no-repeat center;
+  background-size: cover;
+  z-index: 115;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-3a */
+.div-image-3a:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-3a */
+#image-modal-3a {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-3a */
+#modal-content-3a {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-3a */
+#image-full-3a {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/1928161b-63de-4701-b114-6c04f1b5bb27.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-3a */
+#close-button-3a {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-3a:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+/* .div-image-3b */
+.div-image-3b {
+  position: relative;
+  width: 288px;
+  height: 192px;
+  margin: 11px 0 0 52px;
+  background: url(https://static.codia.ai/image/2025-03-25/9deeb904-49fd-48e2-902e-c99fa2990918.png) no-repeat center;
+  background-size: cover;
+  z-index: 116;
+  cursor: pointer; /* Hand cursor to show it's clickable */
+
+  /* Smooth animation */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for .div-image-3b */
+.div-image-3b:hover {
+  transform: translateY(-10px) scale(1.05); /* Moves up & slightly enlarges */
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+}
+/* Fullscreen modal background for #image-modal-3b */
+#image-modal-3b {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Black transparent background */
+  z-index: 99999; /* Super high z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content for #image-modal-3b */
+#modal-content-3b {
+  position: relative;
+}
+
+/* Fullscreen image inside #image-modal-3b */
+#image-full-3b {
+  width: 80vw;
+  height: 80vh;
+  background: url(https://static.codia.ai/image/2025-03-25/9deeb904-49fd-48e2-902e-c99fa2990918.png) no-repeat center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Close (X) button for #image-modal-3b */
+#close-button-3b {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Close button hover effect */
+#close-button-3b:hover {
+  color: #f1c40f; /* Yellow hover */
+  transform: scale(1.2);
+}
+
+.span-creative-director-producer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 231px;
+  height: 465px;
+  margin: 50px 0 0 81px;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: center;
+  z-index: 117;
+}
+.div-studio-moross {
+  position: relative;
+  width: 264px;
+  height: 1301px;
+  margin: 28px 0 0 65px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: center;
+  z-index: 128;
+}
+.span-studio-moross {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: center;
+}
+.span-producers-hazel-falck {
+  position: relative;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: center;
+}
+.div-group {
+  position: relative;
+  width: 169.817px;
+  height: 169.817px;
+  margin: 36px 0 0 112px;
+  background: url(https://static.codia.ai/image/2025-03-25/ff42cfa0-a652-4a59-8900-63e8f4609480.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.div-group-3c {
+  position: relative;
+  width: 169.817px;
+  height: 169.817px;
+  margin: 0px 0 0 112px;
+  background: url(https://static.codia.ai/image/2025-03-25/243cb580-7855-47b8-bae9-d9c68aef0d9c.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.div-group-3d {
+  position: relative;
+  width: 169.817px;
+  height: 169.817px;
+  margin: -1.452px 0 0 112px;
+  background: url(https://static.codia.ai/image/2025-03-25/0392f5dc-0de2-4aa9-9ecc-444e2f3b794b.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.div-social-icons {
+  position: relative;
+  width: 247.44px;
+  height: 20.908px;
+  margin: 1713px 0 0 77px;
+  background: url(https://static.codia.ai/image/2025-03-25/770959a3-739d-43d0-828c-6e0a2767fbaf.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 39;
+}
+.div-untitled {
+  position: relative;
+  width: 304px;
+  height: 74px;
+  margin: 99.092px 0 0 55px;
+  background: url(https://static.codia.ai/image/2025-03-25/ff77f5f2-ad34-4f35-b660-ebe7102845a1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 40;
+}
+.span-creativity-no-rules {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 390px;
+  height: 23px;
+  margin: 0 0 0 9px;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 41;
+}
+.arrow-3e {
+  position: relative;
+  width: 23px;
+  height: 23.016px;
+  margin: 30px 0 0 189px;
+  background: url(https://static.codia.ai/image/2025-03-25/f8f57c17-897c-444d-8485-5ded8022a55f.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 42;
+}
+.vector {
+  position: relative;
+  width: 393px;
+  height: 1px;
+  margin: 67.484px 0 0 0;
+  background: url(https://static.codia.ai/image/2025-03-25/44d02adc-f218-4622-a826-1a053392218c.svg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 44;
+}
+.flex-row-fe {
+  position: absolute;
+  width: 123.16%;
+  height: 13.37%;
+  top: 81.03%;
+  left: 0;
+  z-index: 7;
+}
+.group-3f {
+  position: absolute;
+  width: 21.45%;
+  height: 7.22%;
+  top: 0;
+  left: 29.96%;
+  background: url(https://static.codia.ai/image/2025-03-25/cc661986-8145-4308-88b2-9f965ea232cc.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 4;
+}
+.rectangle-40 {
+  position: absolute;
+  width: 84.3%;
+  height: 92.78%;
+  top: 3.64%;
+  left: 0;
+  font-size: 0px;
+  background: #fff5dd;
+  z-index: 3;
+}
+.get-in-touch {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 290px;
+  height: 39px;
+  margin: 154px 0 0 50px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.first-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 107.101px;
+  height: 32px;
+  margin: 66px 0 0 141px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 19;
+}
+.vector-41 {
+  position: relative;
+  width: 228px;
+  height: 1px;
+  margin: 22.5px 0 0 82px;
+  background: url(https://static.codia.ai/image/2025-03-25/96b03374-bcec-408c-a420-acd4f029994a.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 20;
+}
+.last-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 107.101px;
+  height: 32px;
+  margin: 79.5px 0 0 140px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 22;
+}
+.vector-42 {
+  position: relative;
+  width: 228px;
+  height: 1px;
+  margin: 22.5px 0 0 81px;
+  background: url(https://static.codia.ai/image/2025-03-25/a9394e72-33a2-4ba8-9208-0cdb0377baa7.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 23;
+}
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 107.101px;
+  height: 32px;
+  margin: 79.5px 0 0 141px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 25;
+}
+.vector-43 {
+  position: relative;
+  width: 228px;
+  height: 1px;
+  margin: 14.5px 0 0 81px;
+  background: url(https://static.codia.ai/image/2025-03-25/c916d859-b36a-40b2-a9af-70752d1a2c74.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 26;
+}
+.messages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 107.101px;
+  height: 32px;
+  margin: 95.5px 0 0 141px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 28;
+}
+.vector-44 {
+  position: relative;
+  width: 228px;
+  height: 1px;
+  margin: 22.5px 0 0 82px;
+  background: url(https://static.codia.ai/image/2025-03-25/21ed5cf3-cef9-4ea3-9eea-d845955f2d31.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 29;
+}
+.rectangle-45 {
+  position: relative;
+  width: 115px;
+  height: 28.205px;
+  margin: 34px 0 0 140px;
+  background: #c7115c; /* Dark pink background */
+  z-index: 85;
+  cursor: pointer; /* This makes the mouse a hand/finger 👆 */
+  transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+/* Hover effect */
+.rectangle-45:hover {
+  background-color: #ffd700; /* Yellow hover */
+  color: black; /* Black text when hovering */
+  transform: translateY(-5px); /* Slight lift */
+}
+.send-messages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 81.52%;
+  height: 62.5%;
+  top: 12.5%;
+  left: 9.78%;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 32;
+}
+.vector-46 {
+  position: relative;
+  width: 27px;
+  height: 29px;
+  margin: 71px 0 0 185px;
+  background: url(https://static.codia.ai/image/2025-03-25/df8e6902-e211-4c56-a8e3-2ec7403ea3df.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 34;
+}
+.phone {
+  display: block;
+  position: relative;
+  height: 22px;
+  margin: 9px 0 0 170px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.phone-number {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 181px;
+  height: 46px;
+  margin: 0 0 0 141px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 17;
+  overflow: hidden;
+}
+.vector-47 {
+  position: relative;
+  width: 17.796px;
+  height: 23.341px;
+  margin: 7.787px 0 0 186.001px;
+  background: url(https://static.codia.ai/image/2025-03-25/e84b60e5-c897-4f8d-beba-787b18f1c16a.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 35;
+}
+.email-48 {
+  display: block;
+  position: relative;
+  height: 22px;
+  margin: 4.872px 0 0 173px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.email-address {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 211px;
+  height: 46px;
+  margin: 5px 0 0 89px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+  z-index: 14;
+}
+.vector-49 {
+  position: relative;
+  width: 20.907px;
+  height: 28px;
+  margin: 26px 0 0 185px;
+  background: url(https://static.codia.ai/image/2025-03-25/0a754be5-41b6-4459-bb40-604c2dfe4326.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 33;
+}
+.address {
+  display: block;
+  position: relative;
+  height: 22px;
+  margin: 9px 0 0 162px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.address-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 236px;
+  height: 46px;
+  margin: 5px 0 0 76px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+  z-index: 11;
+}
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 1.35%;
+  top: 12%;
+  left: 32.44%;
+  color: #c7115c;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.504px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.group-4a {
+  position: absolute;
+  width: 21.45%;
+  height: 7.22%;
+  top: 92.78%;
+  left: 31.4%;
+  background: url(https://static.codia.ai/image/2025-03-25/d1797fd9-51dc-4caf-843e-dc557adb72c4.svg)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.flex-row-bd {
+  position: absolute;
+  width: 123.16%;
+  height: 1.94%;
+  top: 94.16%;
+  left: -10.43%;
+  z-index: 38;
+}
+.get-in-touch-4b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 236.458px;
+  height: 35.06%;
+  top: 0;
+  left: 34.3%;
+  color: #ffb6d4;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33.6px;
+  text-align: left;
+  z-index: 38;
+}
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 484px;
+  height: 80%;
+  top: 20%;
+  left: 0;
+  color: #fde3a7;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: center;
+  z-index: 37;
+}
+
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height & width */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #fff; /* or whatever your background is */
+}
+#read-more-button {
+  cursor: pointer; /* makes it show a hand when hovering */
+}
+#read-more-button {
+  display: inline-flex; /* To keep text and arrow together */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #c23c68; /* Dark pink/magenta background */
+  color: white; /* White text */
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0px; /* No rounded corners */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  gap: 8px; /* Space between text and arrow */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+#read-more-button:hover {
+  background-color: #ffd700; /* Yellow hover */
+  color: black; /* Black text when hovering */
+  transform: translateY(-5px); /* Slight lift */
+}
