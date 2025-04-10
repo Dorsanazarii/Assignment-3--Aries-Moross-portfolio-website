@@ -590,7 +590,7 @@ button {
   height: 760px;
   top: 0;
   left: 0;
-  background: url(https://static.codia.ai/image/2025-03-18/7f92ba19-b6a3-4a22-87dd-7de77dd609ab.png)
+  background: url(StudioMoross_SpiceGirls_01.png)
     no-repeat center;
   background-size: cover;
   z-index: 38;
@@ -630,7 +630,7 @@ button {
 #image-full-div-12 {
   width: 80vw;
   height: 80vh;
-  background: url(https://static.codia.ai/image/2025-03-18/7f92ba19-b6a3-4a22-87dd-7de77dd609ab.png)
+  background: url(StudioMoross_SpiceGirls_01.png)
     no-repeat center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1439,7 +1439,7 @@ button {
   width: 1402px;
   height: 935px;
   margin: 33px 0 0 257px;
-  background: url(https://static.codia.ai/image/2025-03-18/040e5246-84ff-483d-83b0-f09737da97e0.png) no-repeat center;
+  background: url(Spice-Girls---14th-June-2019-by-Luke-Dyson---IMG_0472.jpg) no-repeat center;
   z-index: 101;
   cursor: pointer;
 }
@@ -1518,11 +1518,11 @@ button {
 
 /* Individual styles */
 .image-31 {
-  width: 712px;
-  height: 983px;
+  width: 688px;
+  height: 1000px;
   top: 0;
   left: 713px;
-  background: url(https://static.codia.ai/image/2025-03-18/22748d1e-c591-4dbf-9496-ee28344d0a65.png) no-repeat center;
+  background: url(SpiceWorld_BrandPosters_01-800x0-c-default.png) no-repeat center;
   z-index: 104;
   cursor: pointer;
 }
@@ -1550,7 +1550,7 @@ button {
 #image-full-31 {
   width: 80vw;
   height: 80vh;
-  background: url(https://static.codia.ai/image/2025-03-18/22748d1e-c591-4dbf-9496-ee28344d0a65.png) no-repeat center;
+  background: url(SpiceWorld_BrandPosters_01-800x0-c-default.png) no-repeat center;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1690,10 +1690,10 @@ button {
 
 .image-34 {
   position: relative;
-  width: 1400px;
-  height: 930px;
+  width: 1402px;
+  height: 935px;
   margin: 29px 0 0 257px;
-  background: url(https://static.codia.ai/image/2025-03-18/4e8eaf59-ef63-4475-a62b-8dcea8676777.png) no-repeat center;
+  background: url(04_SpiceUpYourLife.jpg) no-repeat center;
   z-index: 105;
   cursor: pointer;
 }
@@ -1721,7 +1721,7 @@ button {
 #image-full-34 {
   width: 80vw;
   height: 80vh;
-  background: url(https://static.codia.ai/image/2025-03-18/4e8eaf59-ef63-4475-a62b-8dcea8676777.png) no-repeat center;
+  background: url(04_SpiceUpYourLife.jpg) no-repeat center;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -2491,11 +2491,11 @@ button {
 }
 .image-56 {
   position: absolute;
-  width: 1856px;
-  height: 970px;
-  top: 556px;
-  left: 0;
-  background: url(https://static.codia.ai/image/2025-03-18/2067548b-b5ef-488c-ab20-9a1c2dcd9c56.png) no-repeat center;
+  width: 1405px;
+  height: 937px;
+  top: 580px;
+  left: 220px;
+  background: url(StudioMoross_SpiceGirls_01.png) no-repeat center;
   background-size: cover;
   z-index: 110;
   cursor: pointer;
@@ -2516,7 +2516,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(117, 221, 26, 0.8); /* Transparent black */
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black */
   backdrop-filter: blur(4px); /* Optional: slight blur */
   z-index: 99999;
   justify-content: center;
@@ -2532,7 +2532,7 @@ button {
 #image-full-56 {
   width: 80vw;
   height: 80vh;
-  background: url(https://static.codia.ai/image/2025-03-18/2067548b-b5ef-488c-ab20-9a1c2dcd9c56.png) no-repeat center;
+  background: url(StudioMoross_SpiceGirls_01.png) no-repeat center;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
